@@ -1,4 +1,6 @@
 // Estrutura de repetição(for)
+// Estrutura de contagem
+// Ideal para iterações com um número conhecido de repetições.
 
 public class ExemploFor {
     public static void main(String[] args) {

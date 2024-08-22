@@ -1,4 +1,7 @@
 // Estrutura de repetição (while)
+// Estrutura condicional de início
+// Ideal para loops onde a condição é verificada antes do bloco de código ser executado.
+
 import java.util.concurrent.ThreadLocalRandom;
 
 public class ExemploWhile {

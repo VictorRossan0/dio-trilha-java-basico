@@ -1,4 +1,7 @@
 // Estrutura de repetição (do-while)
+// Estrutura condicional de fim
+// Ideal para garantir que o bloco de código seja executado pelo menos uma vez, verificando a condição depois.
+
 import java.util.Random;
 
 public class ExemploDoWhile {
