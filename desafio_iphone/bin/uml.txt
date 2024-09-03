@@ -1,0 +1,50 @@
+-----------------------------------------
+|              <<interface>>            |
+|              MusicPlayer              |
+-----------------------------------------
+| + play(): void                        |
+| + pause(): void                       |
+| + stop(): void                        |
+| + createPlaylist(name: String): void  |
+-----------------------------------------
+
+-----------------------------------------
+|              <<interface>>            |
+|                  Phone                |
+-----------------------------------------
+| + makeCall(number: String): void      |
+| + receiveCall(number: String): void   |
+| + addContact(name: String, number:    |
+|             String): void             |
+-----------------------------------------
+
+-----------------------------------------
+|              <<interface>>            |
+|               WebBrowser              |
+-----------------------------------------
+| + browse(url: String): void           |
+| + addBookmark(url: String): void      |
+-----------------------------------------
+
+                        |
+                        |
+                        V
+-----------------------------------------
+|                IPhone                  |
+-----------------------------------------
+| - model: String                        |
+| - storage: int                         |
+-----------------------------------------
+| + play(): void                         |
+| + pause(): void                        |
+| + stop(): void                         |
+| + createPlaylist(name: String): void   |
+| + makeCall(number: String): void       |
+| + receiveCall(number: String): void    |
+| + addContact(name: String, number:     |
+|             String): void              |
+| + browse(url: String): void            |
+| + addBookmark(url: String): void       |
+-----------------------------------------
+| implements MusicPlayer, Phone, WebBrowser |
+-----------------------------------------
